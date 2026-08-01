@@ -235,7 +235,7 @@ h4{
 }
 
 .about{
-    height: 80vh;
+    height: 70vh;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -267,7 +267,6 @@ h4{
 }
 
 .a-btn{
-
     color: #fff;
     height: 36px;
     width: 140px;
@@ -289,4 +288,71 @@ h4{
     text-align: center;
 }
 
+footer{
+    height: 37vh;
+    padding: 50px 60px 20px;
+    background-color: #0B0F19;
+    color: white;
+}
 
+.f-section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.f-div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.f-div h6{
+    font-size: small;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.f-div div{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.f-div img{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.f-div p{
+    font-weight: 400;
+    color: rgba(255, 255, 255);
+    margin-bottom: 15px;
+}
+
+.f-div a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    transition: color .3s ease;
+}
+
+.f-div a:hover{
+    color: rgb(255, 255, 255);
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,.15);
+    margin-bottom: 20px;
+}
+
+footer > p{
+    text-align: center;
+    color: rgba(255,255,255,.7);
+    font-size: 14px;
+}
